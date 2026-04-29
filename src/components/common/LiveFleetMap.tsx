@@ -37,19 +37,20 @@ const createCustomImageMarker = (
   });
 };
 
+
 // Định nghĩa các loại Marker với đường dẫn ảnh tương ứng
 const eBikeIcon = createCustomImageMarker(
-  "./../../../public/images/motorbike.png",
+  "/images/motorbike.png",
   "#dcfce7",
   "#22c55e",
 ); // Xe đạp - Xanh lá
 const shuttleIcon = createCustomImageMarker(
-  "./../../../public/images/hotel-shuttle.png",
+  "/images/hotel-shuttle.png",
   "#dbeafe",
   "#3b82f6",
 ); // Xe buýt - Xanh dương
 const criticalIcon = createCustomImageMarker(
-  "./../../../public/images/motorbike.png",
+  "/images/motorbike.png",
   "#fee2e2",
   "#ef4444",
 ); // Xe đạp lỗi - Đỏ
