@@ -545,7 +545,7 @@ export default function LiveFleetMap() {
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-full bg-green-100 border-2 border-green-500 flex items-center justify-center shadow-sm">
                 <img
-                  src="./../../../public/images/motorbike.png"
+                  src="/images/motorbike.png"
                   alt="ebike"
                   className="w-4 h-4 object-contain"
                 />
@@ -558,8 +558,8 @@ export default function LiveFleetMap() {
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-full bg-blue-100 border-2 border-blue-500 flex items-center justify-center shadow-sm">
                 <img
-                  src="./../../../public/images/hotel-shuttle.png"
-                  alt="shuttle"
+                  src="/images/hotel-shuttle.png"
+                  alt="ebike"
                   className="w-4 h-4 object-contain"
                 />
               </div>
@@ -571,8 +571,8 @@ export default function LiveFleetMap() {
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-full bg-red-100 border-2 border-red-500 flex items-center justify-center shadow-sm">
                 <img
-                  src="./../../../public/images/motorbike.png"
-                  alt="critical"
+                  src="/images/motorbike.png"
+                  alt="ebike"
                   className="w-4 h-4 object-contain"
                 />
               </div>
